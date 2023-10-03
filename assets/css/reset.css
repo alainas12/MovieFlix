@@ -1,18 +1,3 @@
-/*-------------------------------------*\
-  #reset.css
-\*-------------------------------------*/
-
-/**
- * copyright 2021 @codewithsadee 
- */
-
-
-
-
-
-/**
- * Remove default margin & padding
- */
 
 * {
   margin: 0;
@@ -20,28 +5,15 @@
   transition: all 0.5s ease;
 }
 
-/**
- * more-intuitive box-sizing model.
- */
 
 *, *::before, *::after { box-sizing: border-box; }
 
-/**
- * Default font-family 
- */
 
 html { font-family: var(--ff-inter); }
 
-/**
- * All heading color 
- */
 
 h1, h2, h3, h4, h5, h6 { color: var(--white); }
 
-/**
- * Add default background & color,
- * Improve text rendering
- */
 
 body {
   background: var(--rich-black-fogra-29);
@@ -49,9 +21,6 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/**
- * change image default
- */
 
 img {
   display: block;
@@ -61,9 +30,6 @@ img {
   object-fit: cover;
 }
 
-/**
- * remove form default
- */
 
 input, button, select {
   font: inherit;
@@ -72,24 +38,15 @@ input, button, select {
   outline: none;
 }
 
-/**
- * add button default
- */
 
 button {
   color: var(--off-white);
   cursor: pointer;
 }
 
-/**
- * remove list item marker 
- */
 
 li { list-style: none; }
 
-/**
- * change link default
- */
 
 a {
   text-decoration: none;
@@ -97,9 +54,6 @@ a {
   color: var(--off-white);
 }
 
-/**
- * change default scrollbar style 
- */
 
 ::-webkit-scrollbar {
   background: transparent;

@@ -1,24 +1,6 @@
-/*-------------------------------------*\
-  #variables.css
-\*-------------------------------------*/
-
-/**
- * copyright 2021 @codewithsadee 
- */
-
-
-
-
-
-/**
- * all global variables 
- */
 
 :root {
 
-  /**
-   * Colors 
-   */
 
   --live-indicator-shadow: hsla(0, 79%, 63%, 0.5);
   --rich-black-fogra-30:   hsl(219, 32%, 10%);
@@ -32,10 +14,7 @@
   --white:                 hsl(0, 0%, 100%);
   --azure:                 hsl(211, 100%, 50%);
 
-  /**
-   * Typography 
-   */
-
+  
   --ff-inter: "Inter", sans-serif;
 
   --section-heading: 40px;
@@ -48,10 +27,7 @@
   --fw-6: 600;
   --fw-5: 500;
 
-  /**
-   * Spacing 
-   */
-
-  --px: 120px; /* padding-left & padding-right */
+ 
+  --px: 120px; 
 
 }
